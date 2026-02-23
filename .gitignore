@@ -1,15 +1,41 @@
+# Node / frontend
 node_modules/
 dist/
+build/
+.vite/
 .turbo/
-*.local
-.env
-.env.*
-!.env.example
-*.db
-*.sqlite
-backend/data/browser_state/*.json
+*.log
+pnpm-debug.log*
+
+# Python / backend
 __pycache__/
-*.pyc
+*.py[cod]
 .pytest_cache/
 .venv/
 venv/
+env/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+*.local
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Databases / local data
+*.db
+*.sqlite
+*.sqlite3
+backend/data/browser_state/*.json
+
+# Secrets / keys
+*.pem
+*.key
+
+# Playwright artifacts
+playwright-report/
+test-results/
