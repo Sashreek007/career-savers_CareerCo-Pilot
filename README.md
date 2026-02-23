@@ -35,7 +35,6 @@
 - [🧠 AI & Intelligence Pipeline](#-ai--intelligence-pipeline)
 - [🖥️ Tech Stack](#️-tech-stack)
 - [📦 Monorepo Structure](#-monorepo-structure)
-- [🚀 Getting Started](#-getting-started)
 - [🐳 Docker Deployment](#-docker-deployment)
 - [🌐 Visible Browser Setup](#-visible-browser-setup)
 - [🔌 API Reference](#-api-reference)
@@ -305,49 +304,6 @@ Career-Co-Pilot/
 ├── tsconfig.base.json              # Shared TypeScript config
 └── package.json                    # Root scripts (dev, build, typecheck)
 ```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Node.js** ≥ 18
-- **pnpm** ≥ 8 (`npm install -g pnpm`)
-- **Python** ≥ 3.11
-- **Google Chrome** (for browser automation features)
-
-### Frontend
-
-```bash
-# From repo root
-pnpm install
-pnpm dev
-# → http://localhost:5173
-```
-
-### Backend
-
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
-# → http://localhost:8000
-# → http://localhost:8000/docs  (Swagger UI)
-# → http://localhost:8000/health
-```
-
-### Environment Variables
-
-Create a `.env` file in the `backend/` directory:
-
-```env
-GEMINI_API_KEY=your_google_gemini_api_key_here
-APPLICATION_CDP_ENDPOINT=http://localhost:9222
-DISCOVERY_BROWSER_CDP_ENDPOINT=http://localhost:9222
-```
-
-> 💡 The system gracefully degrades when `GEMINI_API_KEY` is not set — all AI features fall back to rule-based logic.
 
 ---
 
