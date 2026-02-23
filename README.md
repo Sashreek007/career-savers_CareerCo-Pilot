@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/Status-Actively%20Developed-brightgreen?style=for-the-badge" alt="Status" />
 </p>
 
-<h1 align="center">✨ Talio</h1>
+<h1 align="center"> Talio</h1>
 
 <p align="center">
   <strong>A Unified Career Intelligence Platform</strong>
@@ -11,7 +11,7 @@
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 **Talio** is a unified career platform that brings job discovery, resume generation, application preparation, and interview readiness into one intelligent workspace.
 
@@ -26,7 +26,7 @@ All without leaving the platform.
 
 ---
 
-## 🎯 Vision
+## Vision
 
 Talio is designed to optimize for:
 
@@ -41,17 +41,17 @@ using structured career data and company-aware insights.
 
 ---
 
-## 🧠 Core Capabilities
+## Core Capabilities
 
-- 🔍 Intelligent Job Discovery  
-- 📝 AI Resume Generation  
-- 📨 Application Draft Preparation  
-- 🎯 Company-Specific Interview Prep  
-- 📈 Feedback-Based Learning Loop  
+- Intelligent Job Discovery  
+- AI Resume Generation  
+- Application Draft Preparation  
+- Company-Specific Interview Prep  
+- Feedback-Based Learning Loop  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - React + TypeScript  
 - FastAPI + Python  
@@ -62,12 +62,12 @@ using structured career data and company-aware insights.
 
 ---
 
-## 📌 Note
+##  Note
 
 This project originated from a hackathon build (Hacked 2026) and is now being actively developed independently.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the Career Co-Pilot Protective Open Source License (CC-POL v1.0). See [LICENSE](LICENSE).
