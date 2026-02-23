@@ -62,6 +62,25 @@ using structured career data and company-aware insights.
 
 ---
 
+## Repository Layout
+
+- `packages/` — frontend pnpm workspace (app shell + feature packages + shared libs)
+- `backend/` — FastAPI service and tests
+- `docs/` — product/design/planning documentation
+- `docker-compose.yml` — local multi-service orchestration
+
+---
+
+## Local Commands
+
+- `pnpm install`
+- `pnpm build`
+- `pnpm typecheck`
+- `python3 -m pytest backend/tests`
+- `docker compose up --build`
+
+---
+
 ##  Note
 
 This project originated from a hackathon build (Hacked 2026) and is now being actively developed independently.
